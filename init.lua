@@ -18,5 +18,4 @@ end
 require "lazy_setup"
 require "polish"
 
--- vim.cmd [[ set guicursor= ]]
 require "config.options"
