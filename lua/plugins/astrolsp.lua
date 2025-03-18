@@ -1,13 +1,7 @@
 return {
   "AstroNvim/astrolsp",
-  ---@type AstroLSPOpts
   opts = {
-    config = {
-      clangd = {
-        capabilities = {
-          offsetEncoding = "utf-8",
-        },
-      },
-    },
+    require("lspconfig").pyright.setup {},
+    -- set configuration options  as described below
   },
 }
